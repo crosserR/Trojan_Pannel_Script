@@ -1,2 +1,34 @@
 # Trojan_Pannel_Script
 Trojan多用户面板安装一键脚本
+
+---
+
+本脚本仅仅支持：Debian9+ / Ubuntu16.04+
+
+---
+
+简介：一键安装多用户 Trojan 管理面板 2020-03-23
+
+---
+
+本脚本会覆盖 Nginx 并占用80/443，请勿在生产环境使用！切记！
+
+---
+
+为确保一次性安装成功，请使用新系统安装
+
+同IP多次Composer安装，会提示输入TOKEN。GitHub的保护机制
+  
+若出现多次尝试本脚本安装，需要输入TOKEN 博客搜索 Composer 
+
+---
+
+运行代码：
+```
+wget -N --no-check-certificate "https://raw.githubusercontent.com/crosserR/Trojan_Pannel_Script/master/trojan_panel.sh" && chmod +x trojan_panel.sh && ./trojan_panel.sh
+```
+
+
+
+
+
